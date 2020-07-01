@@ -322,4 +322,4 @@ chloro_growth_fig = px.choropleth(df_raw, geojson=counties, locations='fips', co
 # 	  )
 
 
-# chloro_growth_fig.show()
+chloro_growth_fig.show()
