@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TrulyDash" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/word_cloud" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/word_cloud/word_cloud" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/word_cloud/word_cloud/word_cloud" vcs="Git" />
   </component>
 </project>

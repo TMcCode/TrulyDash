@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 
 # Create the connections
-cnxn_rs = psycopg2.connect(host='sevenpdredshift.cgxitduwhaqr.us-east-1.redshift.amazonaws.com', database='sevenpark', port='5439', user='sevenpuser', password='7Parkdata', sslmode = 'require')
+cnxn_rs = psycopg2.connect(host='sevenpdredshift.cfycmk2jdvk5.us-east-1.redshift.amazonaws.com', database='sevenpark', port='5439', user='sevenpuser', password='7Parkdata', sslmode = 'require')
 
 
 query_line = """

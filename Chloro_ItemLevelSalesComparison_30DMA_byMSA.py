@@ -24,7 +24,7 @@ with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-c
     counties = json.load(response)
 
 # Create the connections
-cnxn_rs = psycopg2.connect(host='sevenpdredshift.cgxitduwhaqr.us-east-1.redshift.amazonaws.com', database='sevenpark', port='5439', user='sevenpuser', password='7Parkdata', sslmode = 'require')
+cnxn_rs = psycopg2.connect(host='sevenpdredshift.cfycmk2jdvk5.us-east-1.redshift.amazonaws.com', database='sevenpark', port='5439', user='sevenpuser', password='7Parkdata', sslmode = 'require')
 # df_inc = pd.read_csv('/Users/tim/Dropbox/HelperQueries/IncomebyZip.csv')
 # df_inc['zipcode'] = df_inc.zipcode.astype('category')
 
