@@ -1,7 +1,6 @@
 # Truly Dashboard Wrapup
 # Addt'l Charts: 12pk Pricing over Time, 12pk Pricing over MSA
 
-# import psycopg2
 import plotly.offline as pyo
 import plotly.graph_objs as go
 import plotly.express as px
