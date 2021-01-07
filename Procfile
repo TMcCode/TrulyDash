@@ -1,1 +1,1 @@
-web: gunicogit addrn app1:server
+web: gunicorn app1:server
