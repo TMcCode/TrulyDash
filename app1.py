@@ -1,7 +1,7 @@
 # Truly Dashboard Wrapup
 # Addt'l Charts: 12pk Pricing over Time, 12pk Pricing over MSA
 
-import psycopg2
+# import psycopg2
 import plotly.offline as pyo
 import plotly.graph_objs as go
 import plotly.express as px
@@ -67,8 +67,8 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
 server = app.server
 
-app.css.config.serve_locally = False
-app.scripts.config.serve_locally = False
+# app.css.config.serve_locally = False
+# app.scripts.config.serve_locally = False
 
 app.layout = html.Div([
     html.Div([
