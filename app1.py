@@ -2,11 +2,11 @@
 # Addt'l Charts: 12pk Pricing over Time, 12pk Pricing over MSA
 
 # import psycopg2
+import numpy as np
+import pandas as pd
 import plotly.offline as pyo
 import plotly.graph_objs as go
 import plotly.express as px
-import numpy as np
-import pandas as pd
 import plotly.figure_factory as ff
 import sqlite3
 from sqlite3 import Error
