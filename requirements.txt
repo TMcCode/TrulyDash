@@ -38,6 +38,6 @@ six==1.15.0
 style==1.1.0
 ua-parser==0.10.0
 update==0.0.1
-urllib3==1.26.2
+urllib3==1.26.4
 virtualenv==20.2.2
 Werkzeug==1.0.1
